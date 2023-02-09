@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 {
+            border: 2px solid green;
+            position: absolute;
+            top: 80px;
+            right: 0;
+            width: 200px;
+            height: 100px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            background-color: red;
+
+        }
+
+        .div2 {
+            border: 2px solid rgb(128, 176, 214);
+            position: relative;
+            width: 600px;
+            height: 300px;
+            text-align: justify;
+            background-color: aqua;
+        }
+
+        .div3{
+            border: 2px solid black;
+            position: static;
+            width: 200px;
+            height: 100px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            background-color: blueviolet;
+
+        } 
+        .div4{
+            border: 2px solid rgb(212, 100, 100);
+            position: fixed;
+            width: 150px;
+            height: 100px;
+            top: 200px;
+            left: 10px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            background-color: burlywood;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="div2">
+        <h1>This is a relative Property</h1>
+        <div class="div1">
+            <p>This is a absolute Property Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima illo esse cupiditate maiores vel incidunt delectus a. Cum, nemo recusandae, vel nam sed voluptatibus iure corrupti pariatur quasi magnam architecto.</p>
+        </div>
+        <div class="div3">
+            <p>This is a static Property Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatum impedit cupiditate minima unde quidem assumenda exercitationem vero sunt quisquam! Adipisci, dolorem velit ratione dignissimos nisi atque excepturi dicta magni.</p>
+        </div>
+        <div class="div4">
+            <p>This is a fixed Property Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illum obcaecati, in quibusdam aliquam officiis deserunt. Possimus corporis sit deserunt labore totam, necessitatibus quis. Autem, eius labore. Fuga, consequatur quas!</p>
+        </div>
+    </div>
+    
+</body>
+
+</html>

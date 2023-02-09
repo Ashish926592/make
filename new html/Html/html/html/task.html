@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>employee details</title>
+</head>
+<body>
+    <form action="get">
+        <label for="name">Employee name:</label><br>
+        <input type="text" name="fname" id="name" required><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" name="age" id="age" required><br><br>
+
+        <label for="gender">gender:</label>
+        <label for="gender" id="same" ><input type="radio" value="male" name="gender" required>male</label>
+        <label for="gender"><input type="radio" value="female" name="gender" required>female</label><br><br>
+        
+         <label for="designation">designation:</label><br>
+        <input type="text" name="designation" id="designation" required><br><br>
+
+        <label for="salary">salary:</label><br>
+        <input type="number" name="salary" id="salary" required><br><br>
+
+        <label for="location">Choose a Location:</label>
+        <select name="location" id="location" required>
+          <option value="Ahmedabad">Ahmedabad</option>
+          <option value="Botad">Botad</option>
+          <option value="mumbai">Mumbai</option>
+          <option value="Jamnagar">Jamnagar</option>
+        </select>     <br><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br><br>
+
+        <label for="Date">Date of joining:</label>
+        <input type="date" name="Date" id="Date" required><br><br>
+
+        <label for="contact">Contact Number:</label>
+        <input type="tel" name="contact" title="Error Message" id="contact" pattern="[1-9]{1}[0-9]{9}" maxlength="10" required><br><br>
+
+        <input type="button" id="button" value="submit" required><br><br>
+    </form>
+    <script src="task.js"></script>
+</body>
+</html>

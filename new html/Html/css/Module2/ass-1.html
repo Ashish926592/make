@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(216, 173, 173);
+        }
+
+        .one li{
+            display: inline;
+            list-style-type: none;
+            padding: 15px;
+            color: white;
+            text-align: center;
+
+        }
+        .one li:hover {
+            background-color: rgb(235, 204, 204);
+        }
+
+        @media screen and (max-width: 270px) {
+            .one li {
+                display: block;
+                float: none;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>News</li>
+        </ul>
+
+    </div>
+</body>
+
+</html>

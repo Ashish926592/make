@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .stick{
+            position: sticky;
+            top: 0px;
+        }
+        .main {
+            height: auto;
+            width: 100%;
+            border: 2px solid black;
+
+        }
+        
+
+        .one {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(216, 173, 173);
+            position: sticky;
+        }
+
+        .one li {
+            float: left;
+
+        }
+
+        .one li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 17px 16px;
+            text-decoration: none;
+        }
+
+        .one li a:hover {
+            background-color: rgb(235, 204, 204);
+        }
+
+
+        .leftbar {
+            margin-top: 4px;
+            border: 2px solid black;
+            width: auto;
+            display: inline-block;
+
+        }
+
+        .two {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            height: 998px;
+            width: 250px;
+            background-color: rgb(154, 154, 207);
+
+        }
+
+        .two li {
+            padding: 15px;
+        }
+
+        .two li:hover {
+            background-color: rgb(182, 234, 237);
+        }
+
+        .rightbar {
+            float: right;
+            width: 82%;
+            border: 2px solid black;
+            height: 1000px;
+
+        }
+        .footer{
+            border: 2px solid black;
+            height: 55px;
+            width: 100%;
+            bottom: 0px;
+            margin: 0px;
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="stick">
+        <ul class="one">
+            <img src="a.png" style="height: 50px; width: 50px; margin-top: 0px; float: left;">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#news">News</a></li>
+
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="leftbar">
+            <ul class="two">
+                <li>My Account</li>
+                <li>My Articles</li>
+                <li>Interest</li>
+                <li>Practice</li>
+                <li>Testimonials</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="rightbar" id="home">
+            <h1>Ashish Parmar</h1>
+            <p style="color: #6011e0;">web developer</p>
+
+            <h4>A challenging position in a progressive organization that will utilize my talents and provides
+                me
+                with an
+                opportunity for personal and professional growth.</h4>
+
+            <p><i class="fa fa-phone">8000708493</i></p>
+            <a href="https://github.com/Ashish926592" style="color: rgb(170, 8, 8);"><i
+                    class="fa fa-github"></i>github</a><br><br>
+            <a href="https://linkedin.com/in/parmar-ashish-541810212" style="color: rgb(136, 12, 213);"><i
+                    class="fa fa-linkedin"></i>linkedin</a>
+
+
+            <h2 class="div234">Education Details</h1>
+                <div>
+                    <h2>Bachelor of Engineering</h2>
+                    <h3>Vishwakarma government engineering college,gujarat</h3>
+                    <h4>Information Technology</h4>
+                    <p>7.89CGPA</p><br>
+
+                    <h2>Higher Secondary Education</h2>
+                    <h3>Aradhna Uchhatar Madhyamik Shala</h3>
+                    <h4>Science Stream</h4>
+                    <p>84%</p>
+                </div>
+
+
+
+                <h2 class="div234">Work Experience</h1>
+                    <div>
+                        <h3 style="text-align: left;">Internship
+                </h2>
+                <h4 style="text-align: left;">Vnurture Technologies</h3>
+                    <ul style="text-align: left;">
+                        <li>Creating Portfolio website in ReactJs</li>
+                        <li>Manage own portfolio website.</li>
+                        <li>Deploy on Github and netlify.</li>
+                    </ul>
+        </div>
+
+
+        <h2 class="div234">Interests</h1>
+            <div>
+                <ol style="text-align: justify;">
+                    <li>Positive Attitude</li>
+                    <li>Good Communication Skills</li>
+                    <li>Team Work Skill</li>
+                </ol>
+            </div>
+
+    </div>
+    <div id="contact">
+        <form style="text-align: center; background-color: aquamarine;" >
+            <label for="name">Firstname:<input type="text" name="fname" id="fname" required></label><br>
+            
+            <label for="age">LastName:<input type="number" name="lname" id="lname" required></label><br>
+
+            <label for="location">Choose a Location:</label>
+            <select default="location" id="location" required>
+              <option value="Ahmedabad">Ahmedabad</option>
+              <option value="Botad">Botad</option>
+              <option value="mumbai">Mumbai</option>
+              <option value="Jamnagar">Jamnagar</option>
+            </select><br><br>
+
+            <label for="location">Message:</label>       
+            <textarea id="scroll" name="scroll" rows="4" cols="50">
+               
+            </textarea>
+
+        </form>
+    </div>
+    <div class="footer">
+           <p> copyright&copy;2023,All Rights Reserved</p>
+    </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
